@@ -19,5 +19,13 @@ public class Primitives {
 
 
         //TODO declare 2 variables each type and print it.
+        int age = 25;
+        boolean isWomen = true;
+        double height = 1.73;
+        float floatHeight = 1.73f;
+
+        System.out.println("She is "+ age + " years old" + " / " + "She is women: " + isWomen + " / " + "Height: " + height);
+
+
     }
 }

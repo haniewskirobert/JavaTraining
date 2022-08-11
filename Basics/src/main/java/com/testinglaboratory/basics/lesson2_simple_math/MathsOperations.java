@@ -26,5 +26,22 @@ public class MathsOperations {
 
 
         //TODO declare 2 variables and write simple calculator : at result print + - / * operations on those variables
+
+        int a = 50;
+        int b = 5;
+
+        double sum = a + b;
+        System.out.println (sum);
+
+        double difference = a - b;
+        double multiplication = a * b;
+        double division = a/b;
+
+        System.out.println (difference);
+        System.out.println (multiplication);
+        System.out.println (division);
+
+
+
     }
 }

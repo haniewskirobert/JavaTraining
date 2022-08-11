@@ -16,5 +16,14 @@ public class NonPrimitive {
 
 
         //TODO declare 2 variables each type and print it.
+
+        String bridgeName = "Severn Bridge";
+        Integer length = 1597;
+        Double km = 1.597;
+        Boolean isOpened = true;
+
+        System.out.println( bridgeName + " length: " + length.doubleValue() + " m");
+
+
     }
 }
