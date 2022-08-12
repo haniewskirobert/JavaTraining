@@ -29,6 +29,8 @@ public class MathsOperations {
 
         int a = 50;
         int b = 5;
+        int z = add(a,b);
+        System.out.println ("nowy: " + z);
 
         double sum = a + b;
         System.out.println (sum);
@@ -40,8 +42,10 @@ public class MathsOperations {
         System.out.println (difference);
         System.out.println (multiplication);
         System.out.println (division);
-
-
-
     }
+    public static int add (int a, int b){
+        int result = a + b;
+        return result;
+    }
+
 }
