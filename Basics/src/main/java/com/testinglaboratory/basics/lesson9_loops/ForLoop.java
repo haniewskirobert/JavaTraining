@@ -28,7 +28,7 @@ public class ForLoop {
                 System.out.println("it gonna to explode!");
             }
 
-            if (i == 0) {
+            if (i ==1) {
                 System.out.println("Boooom!");
             }
         }
@@ -37,5 +37,17 @@ public class ForLoop {
         //todo fix the bomb system, to make it blow!
 
         //todo write loop counting from 20 to 10 and form -10 to 10;
+
+        System.out.println("count from 20 to 10");
+        for (int i = 20; i >= 10; i--) {
+            System.out.println("count " + i);
+        }
+
+        System.out.println("count from -10 to 10");
+        for (int i = -10; i <= 10; i++) {
+            System.out.println("count " + i);
+        }
+
+
     }
 }
